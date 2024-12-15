@@ -1,0 +1,55 @@
+.content {
+    padding-top: 5rem;
+    max-width: 100vw;
+    max-height: 100dvh;
+}
+
+.inputbox {
+    margin: 1.1rem;
+    width: 73%;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 12px 17px;
+}
+
+
+
+.add{
+    padding: 12px 33px;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.todoData {
+    display: flex;
+    align-items: center;
+    margin: 1.2rem;
+    justify-content: space-between;
+}
+
+.grpBtn{
+    display: flex;
+    gap: 10px;
+}
+
+.updateBtn{
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+    padding: 12px 17px;
+    border-radius: 7px;
+}
+
+.deleteBtn {
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: cadetblue;
+    color: white;
+    padding: 12px 17px;
+}
